@@ -1,3 +1,4 @@
+console.log('EasyJS has been called and is running!')
 // Usage: wait(SecondsToWait,Function to run after delay,If you want to display the time left on a html element put the id on here)
 window.wait=function (secs,func,ID){
 var _towait=secs;var waited=0;
